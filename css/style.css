@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+#container {
+	margin: 0 auto;
+	width: 1200px;
+	height: 1000px;
+}
+
+header {
+	width: 100%;
+	height: 50px;
+	border-bottom: 1px solid black;
+}
+
+#logo {
+	float: left;
+	width: 150px;
+	height: 50px;
+	line-height: 50px;
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+#logo h1 {
+	font-family: 'Pangolin', cursive;
+	font-weight: 600;
+	font-size: 30px;
+	color: #000;
+	text-align: center;
+	text-shadow: 0 1px 0 #222;
+}
+
+nav {
+	float: right;
+	width: 1050px;
+	height: 50px;
+	border-top: 1px solid black;
+}
+
+#topMenu {
+	float: left;
+	width: 975px;
+	height: 50px;
+}
+
+#topMenu > li {
+	float: left;
+	width: 100px;
+	padding: 15px 0;
+	position: relative;
+}
+
+#topMenu > li > a {
+	display: block;
+	color: #000;
+	font-size: 15px;
+	font-weight: 600;
+	text-align: center;
+	text-shadow: 0 1px #07c;
+}
+
+#topMenu > li > a > span {
+	font-size: 0.5em;
+}
+
+#topMenu > li > a:hover {
+	color: #333;
+	text-shadow: 0 1px #07c;
+}
+
+#topMenu > li > ul {
+	display: none;
+	position: absolute;
+	width: 100px;
+	background-color: #fff;
+	left: 0;
+	top: 50px;
+	margin: 0;
+}
+
+#topMenu > li > ul > li {
+	padding: 3px;
+	text-align: center;
+}
+
+#topMenu > li > ul > li > a {
+	font-size: 13px;
+	padding: 10px;
+	color: #aaa;
+}
+
+#topMenu > li:hover > ul {
+	display: block;
+	z-index: 10;
+}
+
+#topMenu > li > ul > li > a:hover {
+	color: #000;
+}
+
+#login {
+	float: right;
+	width: 75px;
+	height: 50px;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+#login > p > a {
+	font-size: 15px;
+	line-height: 50px;
+	padding: 0 15.35px;
+	font-weight: 600;
+	color: #000;
+}
+
+main {
+	clear: both;
+	width: 1200px;
+	height: 900px;
+}
+
+footer {
+	width: 1200px;
+	height: 50px;
+	border: 1px solid #ccc;
+}
+
+footer > #footer-copy, footer > #footer-nav, footer > #footer-info {
+	padding: 0 15px;
+	font-weight: 400;
+	line-height: 50px;
+}
+
+#footer-copy {
+	float: left;
+	width: 150px;
+	color: #aaa;
+}
+
+#footer-nav {
+	float: left;
+	width: 350px;
+}
+
+#footer-nav > a {
+	display: inline-block;
+	padding: 0 10px;
+	font-size: 13px;
+	color: #aaa;
+}
+
+#footer-info {
+	float: left;
+	width: 600px;
+}
+
+#footer-info > p > span {
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 50px;
+	padding: 0 50px;
+	color: #aaa;
+}
+
+#footer-sns {
+	float: left;
+}
+
+#footer-sns > ul > li {
+	float: left;
+	width: 30px;
+	height: 30px;
+	padding: 10px;
+}
